@@ -1,0 +1,31 @@
+.blog-post-container {
+  display: flex;
+  margin-bottom: 30px;
+  flex-direction: column;
+  height: 374px;
+  width: 355px;
+}
+
+.blog-post-heaader {
+  font-size: 26px;
+  margin-bottom: 16px;
+  font-weight: normal;
+}
+
+.blog-post-author-date {
+  font-size: 16px;
+  display: flex;
+  row-gap: 10px;
+  flex-direction: column;
+}
+.blog-post-tag {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.blog-post-image {
+  height: 221px;
+  width: 100%;
+  background-color: lightgray;
+  margin: 24px 0px;
+}
